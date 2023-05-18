@@ -35,13 +35,13 @@ const dateBuilder = (d) => {
     return `${day}, ${date} ${month} ${year}`;
   };
 
-const Weatherr = (weatherData) => 
+const Weatherr = () => 
 {
 
     const [city,setCity] = useState(null);
     const[country, setCountry]=useState(null);
     const [search, setSearch] = useState("Mumbai");
-    const [weather , setWeather] = useState(null);
+    const [weather, setWeather] = useState(null);
     const [wind, setWind] = useState(null);
      
 
